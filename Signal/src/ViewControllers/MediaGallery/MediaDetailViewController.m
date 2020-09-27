@@ -7,7 +7,7 @@
 #import "ConversationViewController.h"
 #import "ConversationViewItem.h"
 #import "OWSMessageCell.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "TSAttachmentStream.h"
 #import "TSInteraction.h"
 #import "UIUtil.h"

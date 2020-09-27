@@ -8,7 +8,7 @@
 #import "ConversationListCell.h"
 #import "OWSNavigationController.h"
 #import "RegistrationUtils.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "SignalApp.h"
 #import "TSAccountManager.h"
 #import "TSGroupThread.h"

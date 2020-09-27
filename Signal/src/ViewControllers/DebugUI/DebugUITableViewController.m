@@ -12,7 +12,7 @@
 #import "DebugUISessionState.h"
 #import "DebugUIStress.h"
 #import "DebugUISyncMessages.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <SignalServiceKit/TSContactThread.h>
 #import <SignalServiceKit/TSThread.h>
 

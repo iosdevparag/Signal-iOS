@@ -5,7 +5,7 @@
 #import "ConversationViewItem.h"
 #import "OWSMessageCell.h"
 #import "OWSSystemMessageCell.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <MobileCoreServices/UTCoreTypes.h>
 #import <SignalCoreKit/NSString+OWS.h>
 #import <SignalServiceKit/NSData+Image.h>

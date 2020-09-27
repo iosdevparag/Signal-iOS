@@ -14,7 +14,7 @@
 #import "OWSMessageFooterView.h"
 #import "OWSMessageTextView.h"
 #import "OWSQuotedMessageView.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <SignalMessaging/UIView+OWS.h>
 #import <SignalServiceKit/MIMETypeUtil.h>
 #import <SignalServiceKit/SignalServiceKit-Swift.h>

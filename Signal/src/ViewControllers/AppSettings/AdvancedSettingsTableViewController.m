@@ -8,7 +8,7 @@
 #import "OWSCountryMetadata.h"
 #import "Pastelog.h"
 #import "RegistrationUtils.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "TSAccountManager.h"
 #import <PromiseKit/AnyPromise.h>
 #import <SignalMessaging/Environment.h>

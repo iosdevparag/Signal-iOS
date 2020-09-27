@@ -7,7 +7,7 @@
 #import "OWSMessageBubbleView.h"
 #import "OWSMessageStickerView.h"
 #import "OWSMessageViewOnceView.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <SignalMessaging/SignalMessaging-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN

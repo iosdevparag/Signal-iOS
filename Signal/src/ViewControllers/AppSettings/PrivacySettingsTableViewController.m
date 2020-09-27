@@ -4,7 +4,7 @@
 
 #import "PrivacySettingsTableViewController.h"
 #import "BlockListViewController.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <SignalCoreKit/NSString+OWS.h>
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/OWSPreferences.h>

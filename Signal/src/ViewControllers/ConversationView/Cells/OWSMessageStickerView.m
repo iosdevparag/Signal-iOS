@@ -6,7 +6,7 @@
 #import "OWSLabel.h"
 #import "OWSMessageBubbleView.h"
 #import "OWSMessageFooterView.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <SignalMessaging/UIView+OWS.h>
 #import <YYImage/YYImage.h>
 

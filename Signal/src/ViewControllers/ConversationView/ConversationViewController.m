@@ -24,7 +24,7 @@
 #import "OWSMessageStickerView.h"
 #import "OWSMessageViewOnceView.h"
 #import "OWSSystemMessageCell.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "TSAttachmentPointer.h"
 #import "TSCall.h"
 #import "TSContactThread.h"

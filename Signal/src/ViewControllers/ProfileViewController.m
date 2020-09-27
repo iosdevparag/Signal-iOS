@@ -7,7 +7,7 @@
 #import "AvatarViewHelper.h"
 #import "ConversationListViewController.h"
 #import "OWSNavigationController.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "UIFont+OWS.h"
 #import "UIView+OWS.h"
 #import <PromiseKit/AnyPromise.h>

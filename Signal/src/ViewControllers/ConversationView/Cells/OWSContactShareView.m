@@ -4,7 +4,7 @@
 
 #import "OWSContactShareView.h"
 #import "OWSContactAvatarBuilder.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "UIFont+OWS.h"
 #import "UIView+OWS.h"
 #import <SignalMessaging/Environment.h>

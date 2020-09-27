@@ -5,7 +5,7 @@
 #import "DebugUIStress.h"
 #import "OWSMessageSender.h"
 #import "OWSTableViewController.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "SignalApp.h"
 #import "ThreadUtil.h"
 #import <SignalCoreKit/Cryptography.h>

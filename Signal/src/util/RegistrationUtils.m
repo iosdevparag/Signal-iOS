@@ -4,7 +4,7 @@
 
 #import "RegistrationUtils.h"
 #import "OWSNavigationController.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <PromiseKit/PromiseKit.h>
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/OWSPreferences.h>

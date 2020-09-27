@@ -5,7 +5,7 @@
 #import "DebugUIDiskUsage.h"
 #import "OWSOrphanDataCleaner.h"
 #import "OWSTableViewController.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <SignalCoreKit/NSDate+OWS.h>
 #import <SignalServiceKit/TSInteraction.h>
 

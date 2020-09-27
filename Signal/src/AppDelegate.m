@@ -10,7 +10,7 @@
 #import "OWSOrphanDataCleaner.h"
 #import "OWSScreenLockUI.h"
 #import "Pastelog.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "SignalApp.h"
 #import "ViewControllerUtils.h"
 #import "YDBLegacyMigration.h"

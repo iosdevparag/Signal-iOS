@@ -3,7 +3,7 @@
 //
 
 #import "MainAppContext.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import <SignalCoreKit/Threading.h>
 #import <SignalMessaging/Environment.h>
 #import <SignalMessaging/OWSProfileManager.h>

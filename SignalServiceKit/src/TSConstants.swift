@@ -150,52 +150,14 @@ public class TSConstants: NSObject {
 
 private class TSConstantsProduction: TSConstantsProtocol {
 
-    public let textSecureWebSocketAPI = "wss://textsecure-service.whispersystems.org/v1/websocket/"
-    public let textSecureServerURL = "https://textsecure-service.whispersystems.org/"
-    public let textSecureCDN0ServerURL = "https://cdn.signal.org"
-    public let textSecureCDN2ServerURL = "https://cdn2.signal.org"
-    public let contactDiscoveryURL = "https://api.directory.signal.org"
-    public let keyBackupURL = "https://api.backup.signal.org"
-    public let storageServiceURL = "https://storage.signal.org"
-    public let kUDTrustRoot = "BXu6QIKVz5MA8gstzfOgRQGqyLqOwNKHL6INkv3IHWMF"
-
-    public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
-
-    public let serviceCensorshipPrefix = "service"
-    public let cdn0CensorshipPrefix = "cdn"
-    public let cdn2CensorshipPrefix = "cdn2"
-    public let contactDiscoveryCensorshipPrefix = "directory"
-    public let keyBackupCensorshipPrefix = "backup"
-    public let storageServiceCensorshipPrefix = "storage"
-
-    public let contactDiscoveryEnclaveName = "c98e00a4e3ff977a56afefe7362a27e4961e4f19e211febfbb19b897e6b80b15"
-    public var contactDiscoveryMrEnclave: String {
-        return contactDiscoveryEnclaveName
-    }
-
-    public let keyBackupEnclaveName = "fe7c1bfae98f9b073d220366ea31163ee82f6d04bead774f71ca8e5c40847bfe"
-    public let keyBackupMrEnclave = "a3baab19ef6ce6f34ab9ebb25ba722725ae44a8872dc0ff08ad6d83a9489de87"
-    public let keyBackupServiceId = "fe7c1bfae98f9b073d220366ea31163ee82f6d04bead774f71ca8e5c40847bfe"
-
-    public let applicationGroup = "group.org.whispersystems.signal.group"
-
-    // We need to discard all profile key credentials if these values ever change.
-    // See: GroupsV2Impl.verifyServerPublicParams(...)
-    public let serverPublicParamsBase64 = "AMhf5ywVwITZMsff/eCyudZx9JDmkkkbV6PInzG4p8x3VqVJSFiMvnvlEKWuRob/1eaIetR31IYeAbm0NdOuHH8Qi+Rexi1wLlpzIo1gstHWBfZzy1+qHRV5A4TqPp15YzBPm0WSggW6PbSn+F4lf57VCnHF7p8SvzAA2ZZJPYJURt8X7bbg+H3i+PEjH9DXItNEqs2sNcug37xZQDLm7X0=="
-}
-
-// MARK: -
-
-private class TSConstantsStaging: TSConstantsProtocol {
-
-    public let textSecureWebSocketAPI = "wss://textsecure-service-staging.whispersystems.org/v1/websocket/"
-    public let textSecureServerURL = "https://textsecure-service-staging.whispersystems.org/"
-    public let textSecureCDN0ServerURL = "https://cdn-staging.signal.org"
-    public let textSecureCDN2ServerURL = "https://cdn2-staging.signal.org"
+    public let textSecureWebSocketAPI = "wss://chat.ezifytech.com/v1/websocket/"
+    public let textSecureServerURL = "https://chat.ezifytech.com/"
+    public let textSecureCDN0ServerURL = "http://signalchat.s3-website-ap-southeast-1.amazonaws.com/"
+    public let textSecureCDN2ServerURL = "http://signalchat.s3-website-ap-southeast-1.amazonaws.com/"
     public let contactDiscoveryURL = "https://api-staging.directory.signal.org"
     public let keyBackupURL = "https://api-staging.backup.signal.org"
     public let storageServiceURL = "https://storage-staging.signal.org"
-    public let kUDTrustRoot = "BbqY1DzohE4NUZoVF+L18oUPrK3kILllLEJh2UnPSsEx"
+    public let kUDTrustRoot = "Bc6WsOTyEoUtOSlhhNh2WZjBxreESRYnzkmdwC2SYa8O"
 
     public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
 
@@ -216,9 +178,48 @@ private class TSConstantsStaging: TSConstantsProtocol {
     public let keyBackupMrEnclave = "a3baab19ef6ce6f34ab9ebb25ba722725ae44a8872dc0ff08ad6d83a9489de87"
     public let keyBackupServiceId = "038c40bbbacdc873caa81ac793bb75afde6dfe436a99ab1f15e3f0cbb7434ced"
 
-    public let applicationGroup = "group.org.whispersystems.signal.group.staging"
+    public let applicationGroup = "group.com.klouddata.messagechat.group"
 
     // We need to discard all profile key credentials if these values ever change.
     // See: GroupsV2Impl.verifyServerPublicParams(...)
-    public let serverPublicParamsBase64 = "ABSY21VckQcbSXVNCGRYJcfWHiAMZmpTtTELcDmxgdFbtp/bWsSxZdMKzfCp8rvIs8ocCU3B37fT3r4Mi5qAemeGeR2X+/YmOGR5ofui7tD5mDQfstAI9i+4WpMtIe8KC3wU5w3Inq3uNWVmoGtpKndsNfwJrCg0Hd9zmObhypUnSkfYn2ooMOOnBpfdanRtrvetZUayDMSC5iSRcXKpdls=="
+    public let serverPublicParamsBase64 = "ALgAfjQi0SdF3SCwKP+ZnK0Yhvm7amlVB9dwDWYcR0xDtHg0iiIZs4O9kYPAua2z6f9ZHMHldjXlLLik/F8/eBZQpaWjgyBVE05UPwuvQKx8J7SHUVqFNvVdjv4+pC6zeXSqn6sCwvuDNVS7mm1USI2H2KqiuLqKyWiNDw0vT90SHsTzwplWgXcBEPF7bkrd/fWr+GoktkWCk9eVBSi/oWY"
+}
+
+// MARK: -
+
+private class TSConstantsStaging: TSConstantsProtocol {
+
+    public let textSecureWebSocketAPI = "wss://chat.ezifytech.com/v1/websocket/"
+    public let textSecureServerURL = "https://chat.ezifytech.com/"
+    public let textSecureCDN0ServerURL = "http://signalchat.s3-website-ap-southeast-1.amazonaws.com/"
+    public let textSecureCDN2ServerURL = "http://signalchat.s3-website-ap-southeast-1.amazonaws.com/"
+    public let contactDiscoveryURL = "https://api-staging.directory.signal.org"
+    public let keyBackupURL = "https://api-staging.backup.signal.org"
+    public let storageServiceURL = "https://storage-staging.signal.org"
+    public let kUDTrustRoot = "Bc6WsOTyEoUtOSlhhNh2WZjBxreESRYnzkmdwC2SYa8O"
+
+    public let censorshipReflectorHost = "europe-west1-signal-cdn-reflector.cloudfunctions.net"
+
+    public let serviceCensorshipPrefix = "service-staging"
+    public let cdn0CensorshipPrefix = "cdn-staging"
+    public let cdn2CensorshipPrefix = "cdn2-staging"
+    public let contactDiscoveryCensorshipPrefix = "directory-staging"
+    public let keyBackupCensorshipPrefix = "backup-staging"
+    public let storageServiceCensorshipPrefix = "storage-staging"
+
+    // CDS uses the same EnclaveName and MrEnclave
+    public let contactDiscoveryEnclaveName = "bd123560b01c8fa92935bc5ae15cd2064e5c45215f23f0bd40364d521329d2ad"
+    public var contactDiscoveryMrEnclave: String {
+        return contactDiscoveryEnclaveName
+    }
+
+    public let keyBackupEnclaveName = "823a3b2c037ff0cbe305cc48928cfcc97c9ed4a8ca6d49af6f7d6981fb60a4e9"
+    public let keyBackupMrEnclave = "a3baab19ef6ce6f34ab9ebb25ba722725ae44a8872dc0ff08ad6d83a9489de87"
+    public let keyBackupServiceId = "038c40bbbacdc873caa81ac793bb75afde6dfe436a99ab1f15e3f0cbb7434ced"
+
+    public let applicationGroup = "group.com.klouddata.messagechat.group"
+
+    // We need to discard all profile key credentials if these values ever change.
+    // See: GroupsV2Impl.verifyServerPublicParams(...)
+    public let serverPublicParamsBase64 = "ALgAfjQi0SdF3SCwKP+ZnK0Yhvm7amlVB9dwDWYcR0xDtHg0iiIZs4O9kYPAua2z6f9ZHMHldjXlLLik/F8/eBZQpaWjgyBVE05UPwuvQKx8J7SHUVqFNvVdjv4+pC6zeXSqn6sCwvuDNVS7mm1USI2H2KqiuLqKyWiNDw0vT90SHsTzwplWgXcBEPF7bkrd/fWr+GoktkWCk9eVBSi/oWY"
 }

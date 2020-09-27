@@ -6,7 +6,7 @@
 #import "ContactTableViewCell.h"
 #import "ContactsViewHelper.h"
 #import "OWSTableViewController.h"
-#import "Signal-Swift.h"
+#import "EzifyChat-Swift.h"
 #import "SignalApp.h"
 #import "UIView+OWS.h"
 #import <MessageUI/MessageUI.h>
